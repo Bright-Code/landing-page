@@ -1,24 +1,11 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-body,
-html {
-    width: 100%;
-    height: 100%;
+body, html {
+  width: 100%;
+  height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 .lead {
@@ -27,7 +14,7 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -88,15 +75,23 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
-    padding: 50px 0;
+.content-social-buttons {
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
-.content-section-b {
+.content-skills {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.content-skills .heading {
+  margin: 0px;
+}
+
+.content-skills hr {
+  margin-top: 10px;
 }
 
 .section-heading {
