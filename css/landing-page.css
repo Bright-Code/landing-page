@@ -11,6 +11,17 @@ body,h1,h2,h3,h4,h5,h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.socials img {
+    height: 75px;
+    float: left;
+    margin: 60px 15px;
+}
+
+.progress {
+    margin-bottom: 15px;
 }
 
 .intro-header {
