@@ -6,10 +6,15 @@ body, html {
 body,h1,h2,h3,h4,h5,h6 {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+  
+}
+
+.intro-header * {
+    text-shadow: 0 0 1.2em #09F, 0 0 1.2em #09F, 0 0 1.2em #09F;
 }
 
 .content-section-a {
-    background-color: #cfc;
+    background-color: #7eF;
 }
 
 .lead {
