@@ -10,17 +10,23 @@ body,h1,h2,h3,h4,h5,h6 {
   
 }
 
-.navbar {
+.navbar-default {
     background-color: #FFF;
 }
 
-.navbar li a {
-    border-top: 5px solid #FFF;
+.navbar-default li.active a {
+    background-color: #adF !important;
 }
 
-.navbar li.active a {
-    border-top: 5px solid #09F;
-    background-color: #FFF !important;
+@media (min-width: 768px) {
+    .navbar-default li a {
+        border-top: 5px solid #FFF;
+    }
+
+    .navbar-default li.active a {
+        border-top: 5px solid #09F;
+        background-color: #FFF !important;
+    }
 }
 
 .intro-header * {
