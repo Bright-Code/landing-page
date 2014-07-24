@@ -110,12 +110,24 @@ ul.intro-social-buttons {
     border-bottom: 1px solid #e7e7e7;
 }
 
-.content-skills .heading {
+.container .heading {
   margin: 0px;
 }
 
-.content-skills hr {
+.container hr {
   margin-top: 10px;
+}
+
+.content-skills #description {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.content-projects {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
 }
 
 .section-heading {
