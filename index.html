@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".main-navbar">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -36,13 +36,16 @@
           </button>
           <a class="navbar-brand" href="#">Bright Code</a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse main-navbar" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-            <a href="#">About</a>
+            <a href="#home">Home</a>
             </li>
             <li>
-            <a href="#">Services</a>
+            <a href="#skills">Skills</a>
+            </li>
+            <li>
+            <a href="#projects">Projects</a>
             </li>
             <li>
             <a href="#">Contact</a>
@@ -51,67 +54,93 @@
         </div>
       </div>
     </nav>
-    
-    <div class="intro-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img class="img-responsive" src="img/yoda-logo.png" alt="">
+
+    <div id="home">
+      <div id="carousel-example-generic" class="intro-header carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="img-responsive" src="img/yoda-logo.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                  <h1>Bright Code</h1>
+                  <h3>Always look on the bright side of code</h3>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <h1>Bright Code</h1>
-            <h3>Always look on the bright side of code</h3>
+          <div class="item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="img-responsive" src="img/yoda-logo.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                  <h1>Bright Code</h1>
+                  <h3>Always look on the bright side of code</h3>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
       </div>
     </div>
 
-    <div class="content-skills">
+    <div class="content-skills" id="skills">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
             <h2 class="heading">Skills</h2>
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <p class="lead">
-              <span>HTML5 / CSS3</span>
-            </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                 <span class="sr-only">90% Complete</span>
               </div>
+              <span class="progress-type">HTML / HTML5</span>
+              <span class="progress-completed">90%</span>
             </div>
-            <p class="lead">
-              <span>JavaScript</span>
-            </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                <span class="sr-only">80% Complete</span>
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                <span class="sr-only">70% Complete (success)</span>
               </div>
+              <span class="progress-type">ASP.Net</span>
+              <span class="progress-completed">70%</span>
             </div>
-            <p class="lead">
-              <span>Ruby</span>
-            </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                <span class="sr-only">70% Complete</span>
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete (info)</span>
               </div>
+              <span class="progress-type">RUBY / RUBY ON RAILS</span>
+              <span class="progress-completed">80%</span>
             </div>
-            <p class="lead">
-              <span>C#</span>
-            </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                <span class="sr-only">70% Complete</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <span class="sr-only">60% Complete (warning)</span>
               </div>
+              <span class="progress-type">JavaScript / jQuery</span>
+              <span class="progress-completed">60%</span>
             </div>
-            <p class="lead">
-              <span>SQL</span>
-            </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                <span class="sr-only">70% Complete</span>
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete (danger)</span>
               </div>
+              <span class="progress-type">CSS / CSS3</span>
+              <span class="progress-completed">80%</span>
             </div>
           </div>
           <div class="col-lg-6 col-sm-pull-6 col-sm-6">
@@ -135,7 +164,7 @@
       </div>
     </div>
 
-    <div class="content-projects">
+    <div class="content-projects" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-sm-6">
@@ -151,58 +180,47 @@
         </div>
       </div>
     </div>
-    
-    <div class="banner">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>Connect to us:</h2>
-          </div>
-          <div class="col-lg-6">
-            <ul class="list-inline intro-social-buttons">
-              <li>
-              <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-              </li>
-              <li>
-              <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-              </li>
-              <li>
-              <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <ul class="list-inline">
-              <li>
-              <a href="#home">Home</a>
-              </li>
-              <li class="footer-menu-divider">&sdot;</li>
-              <li>
-              <a href="#about">About</a>
-              </li>
-              <li class="footer-menu-divider">&sdot;</li>
-              <li>
-              <a href="#services">Services</a>
-              </li>
-              <li class="footer-menu-divider">&sdot;</li>
-              <li>
-              <a href="#contact">Contact</a>
-              </li>
-            </ul>
-            <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+          <h3 class="footertext">About Us:</h3>
+          <br>
+          <div class="col-md-4">
+            <center>
+              <img src="http://oi60.tinypic.com/w8lycl.jpg" class="img-circle" alt="the-brains">
+              <br>
+              <h4 class="footertext">Programmer</h4>
+              <p class="footertext">You can thank all the crazy programming here to this guy.<br>
+            </center>
           </div>
+          <div class="col-md-4">
+            <center>
+              <img src="http://oi60.tinypic.com/2z7enpc.jpg" class="img-circle" alt="...">
+              <br>
+              <h4 class="footertext">Artist</h4>
+              <p class="footertext">All the images here are hand drawn by this man.<br>
+            </center>
+          </div>
+          <div class="col-md-4">
+            <center>
+              <img src="http://oi61.tinypic.com/307n6ux.jpg" class="img-circle" alt="...">
+              <br>
+              <h4 class="footertext">Designer</h4>
+              <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
+            </center>
+          </div>
+        </div>
+        <div class="row">
+          <p><center><a href="#">Contact Stuff Here</a> <p class="footertext">Copyright 2014</p></center></p>
         </div>
       </div>
     </footer>
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('body').scrollspy({ target: '.main-navbar' })
+    </script>
   </body>
 </html>
