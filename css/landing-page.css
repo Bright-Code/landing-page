@@ -10,6 +10,18 @@ body,h1,h2,h3,h4,h5,h6 {
   
 }
 
+.carousel-control {
+    width: 0px;
+}
+
+.glyphicon-chevron-left {
+    margin: 0px 0px 0px 20px !important;
+}
+
+.glyphicon-chevron-right {
+    margin: 0px 20px 0px 0px !important;
+}
+
 .navbar-default {
     background-color: #FFF;
 }
@@ -68,7 +80,6 @@ body,h1,h2,h3,h4,h5,h6 {
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-    height: 450px;
 }
 
 .intro-message {
