@@ -10,16 +10,18 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .progressbar {
-  height: 20px;
-  width: 210px;
-  background-image: url("../img/star_disable.png");
-  background-repeat: repeat-x;
+    height: 20px;
+    width: 210px;
+    background-image: url("../img/star_disable.png");
+    background-repeat: repeat-x;
+    position: relative;
+    height: 30px;
 }
 
 .progressbar div {
-  height: 20px;
-  width: 0%;
-  background-image: url("../img/star_enable.png");
+    height: 20px;
+    width: 0%;
+    background-image: url("../img/star_enable.png");
 }
 
 .carousel-control {
