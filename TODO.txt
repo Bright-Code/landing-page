@@ -1,5 +1,11 @@
 Mi³osz:
-wymyœleæ i zrobiæ stopkê
+wymy¶leæ i zrobiæ stopkê - DONE
+
+projekty w tym stylu mo¿e:
+http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
+
+a Team w tym stylu:
+http://bootsnipp.com/snippets/featured/information-card
 
 Jacek:
 logo do menu
