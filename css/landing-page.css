@@ -9,6 +9,19 @@ body,h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
+.progressbar {
+  height: 20px;
+  width: 210px;
+  background-image: url("../img/star_disable.png");
+  background-repeat: repeat-x;
+}
+
+.progressbar div {
+  height: 20px;
+  width: 0%;
+  background-image: url("../img/star_enable.png");
+}
+
 .carousel-control {
   width: 0px;
 }
