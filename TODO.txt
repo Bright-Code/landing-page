@@ -1,16 +1,11 @@
 Mi³osz:
-wymy¶leæ i zrobiæ stopkê
-http://jsfiddle.net/andsens/mLA7X/
-skills
-
-projekty w tym stylu mo¿e:
-http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
-
-a Team w tym stylu:
-http://bootsnipp.com/snippets/featured/information-card
+projekty - poprawiæ design -> http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
+menu item jumping
 
 Jacek:
-logo do menu
+slider
+projekty - do³¹czyæ 3 projekty + opisy i linki
 
 Pawe³:
-slider
+skills / technologie
+a Team w tym stylu -> http://bootsnipp.com/snippets/featured/information-card
