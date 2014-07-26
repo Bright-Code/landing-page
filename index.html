@@ -102,8 +102,9 @@
 
     <div class="content-skills" id="skills">
       <div class="container">
-        <h2 class="heading">Skills</h2>
-        <hr class="section-heading-spacer">
+        <h2 class="heading text-center">
+          <div class="box">Skills</div>
+        </h2>
         <p class="lead" id="description">
           The new technology is the Universe. And we're a Jedi coders.
           But you are the Emperor.
@@ -136,7 +137,7 @@
               <span>HTML5 / CSS3</span>
             </p>
           </div>
-          
+
           <div class="col-xs-12 col-md-2">
             <div class="radial-progress js-progress" data-progress="0">
               <div class="circle">
@@ -160,7 +161,7 @@
               <span>Javascript</span>
             </p>
           </div>
-          
+
           <div class="col-xs-12 col-md-2">
             <div class="radial-progress ruby-progress" data-progress="0">
               <div class="circle">
@@ -184,7 +185,7 @@
               <span>Ruby</span>
             </p>
           </div>
-          
+
           <div class="col-xs-12 col-md-2">
             <div class="radial-progress cs-progress" data-progress="0">
               <div class="circle">
@@ -208,7 +209,7 @@
               <span>C#</span>
             </p>
           </div>
-          
+
           <div class="col-xs-12 col-md-2">
             <div class="radial-progress sql-progress" data-progress="0">
               <div class="circle">
@@ -232,7 +233,7 @@
               <span>SQL</span>
             </p>
           </div>
-          
+
           <div class="col-xs-12 col-md-2">
             <div class="radial-progress ps-progress" data-progress="0">
               <div class="circle">
@@ -257,7 +258,7 @@
             </p>
           </div>
         </div>
-            
+
         <div class="socials">
           <a href="http://rubyonrails.org/" target="_blank"><img class="img-responsive" src="img/socials/rails.png" alt="ruby on rails" title="ruby on rails"></a>
           <a href="http://jquery.com/" target="_blank"><img class="img-responsive" src="img/socials/jquery.png" alt="jquery" title="jquery"></a>
@@ -270,9 +271,10 @@
 
     <div class="content-projects" id="projects">
       <div class="container">
-        <h2 class="heading">Projects</h2>
-        <hr class="section-heading-spacer">
-        <div class="clearfix"></div>
+        <h2 class="heading text-center">
+          <div class="box">Projects</div>
+        </h2>
+        <br />
         <div class="row form-group">
           <div class="col-xs-12 col-md-4">
               <div class="panel panel-default">
@@ -286,10 +288,7 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
                   </div>
                   <div class="panel-footer text-center">
-                      <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
-                      <a href="#facebook"><span class="fa fa-facebook"></span></a>
-                      <a href="#twitter"><span class="fa fa-twitter"></span></a>
-                      <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                    <a href="#download"><span class="glyphicon glyphicon-eye-open"></span></a>
                   </div>
               </div>
           </div>
@@ -299,16 +298,12 @@
                       <img src="img/projects/gdanskcurlingclub.png" class="panel-image-preview" />
                       <label for="toggle-2"></label>
                   </div>
-                  <input type="checkbox" id="toggle-2" class="panel-image-toggle">
                   <div class="panel-body">
                       <h4>Title of Image</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
                   </div>
                   <div class="panel-footer text-center">
-                      <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
-                      <a href="#facebook"><span class="fa fa-facebook"></span></a>
-                      <a href="#twitter"><span class="fa fa-twitter"></span></a>
-                      <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                    <a href="#download"><span class="glyphicon glyphicon-eye-open"></span></a>
                   </div>
               </div>
           </div>
@@ -318,16 +313,12 @@
                       <img src="img/projects/osplesniewo.png" class="panel-image-preview" />
                       <label for="toggle-3"></label>
                   </div>
-                  <input type="checkbox" id="toggle-3" class="panel-image-toggle">
                   <div class="panel-body">
                       <h4>Title of Image</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper et.</p>
                   </div>
                   <div class="panel-footer text-center">
-                      <a href="#download"><span class="glyphicon glyphicon-download"></span></a>
-                      <a href="#facebook"><span class="fa fa-facebook"></span></a>
-                      <a href="#twitter"><span class="fa fa-twitter"></span></a>
-                      <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                    <a href="#download"><span class="glyphicon glyphicon-eye-open"></span></a>
                   </div>
               </div>
           </div>
@@ -375,7 +366,14 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/less.min.js"></script>
     <script>
-    $('body').scrollspy({ target: '.main-navbar' })
+    $('body').scrollspy({ target: '.main-navbar', offset: 50 })
+    var offset = 50;
+
+    $('.navbar li a').click(function(event) {
+      event.preventDefault();
+      $($(this).attr('href'))[0].scrollIntoView();
+      scrollBy(0, -offset);
+    });
 
     $('head style[type="text/css"]').attr('type', 'text/less');
     less.refreshStyles();
