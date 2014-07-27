@@ -14,10 +14,6 @@ body,h1,h2,h3,h4,h5,h6 {
   margin-top: 10px;
 }
 
-#description {
-  padding-bottom: 50px;
-}
-
 .radial-progress {
   margin: 0px auto !important;
 }
@@ -83,15 +79,13 @@ body,h1,h2,h3,h4,h5,h6 {
 
 .socials {
   background-color: #eee;
-  margin-top: 50px;
-  padding: 10px 10px;
+  padding-top: 5px;
+  padding-left:20px;
 }
 
 .socials a {
-  height: 65px;
-  float: left;
   margin-right: 15px;
-  display: block;
+  display: inline-block;
 }
 
 .socials img:hover {
@@ -192,6 +186,7 @@ ul.intro-social-buttons {
 
 .content-skills #description {
   font-size: 20px;
+  padding-bottom: 50px;
 }
 
 .content-skills .circle-progress > div {

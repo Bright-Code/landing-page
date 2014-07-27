@@ -7,10 +7,7 @@ slider
 projekty - dołączyć 3 projekty + opisy i linki
 
 Paweł:
-skills / technologie
-a Team w tym stylu -> http://bootsnipp.com/snippets/featured/information-card
+w About Us przydałyby się nasze zdjęcia
 
 
-
-Problem długiego ładowania strony - być może ma to związek z dodaniem sekcji About Us.
-Dlaczego klasy są zawarte w nawiasach kwadratowych?
+w landing-page.css pomimo tego, że w klasie social nie ma padding-bottom to zrobił go wizualnie, trzeba się temu przyjrzeć.. 
