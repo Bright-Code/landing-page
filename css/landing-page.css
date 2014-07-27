@@ -167,12 +167,6 @@ ul.intro-social-buttons {
   background-color: #f8f8f8;
 }
 
-.content-skills {
-  padding: 50px 0;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-}
-
 .container .heading { margin-top: -52px }
 
 .container > .heading .box {
@@ -190,14 +184,16 @@ ul.intro-social-buttons {
 }
 
 .content-skills #description {
-  margin-top: 40px;
   font-size: 20px;
 }
 
-.content-projects {
+.content-skills .circle-progress > div {
+  margin: 20px 0px !important;
+}
+
+.content-skills, .content-projects, .content-about-us {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
 }
 
 .content-team {

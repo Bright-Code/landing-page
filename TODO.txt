@@ -1,11 +1,16 @@
-Mi�osz:
-projekty - poprawi� design -> http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
+Miłosz:
+projekty - poprawić design -> http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
 menu item jumping
 
 Jacek:
 slider
-projekty - do��czy� 3 projekty + opisy i linki
+projekty - dołączyć 3 projekty + opisy i linki
 
-Pawe�:
+Paweł:
 skills / technologie
 a Team w tym stylu -> http://bootsnipp.com/snippets/featured/information-card
+
+
+
+Problem długiego ładowania strony - być może ma to związek z dodaniem sekcji About Us.
+Dlaczego klasy są zawarte w nawiasach kwadratowych?
