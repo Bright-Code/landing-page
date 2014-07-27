@@ -78,9 +78,8 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .socials {
-  background-color: #eee;
-  padding-top: 5px;
-  padding-left:20px;
+  margin-top: 50px;
+  margin-left:20px;
 }
 
 .socials a {
@@ -186,7 +185,8 @@ ul.intro-social-buttons {
 
 .content-skills #description {
   font-size: 20px;
-  padding-bottom: 50px;
+  background-color: #eee;
+  padding: 20px;
 }
 
 .content-skills .circle-progress > div {
