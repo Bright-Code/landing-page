@@ -10,4 +10,18 @@ Paweł:
 w About Us przydałyby się nasze zdjęcia
 
 
-w landing-page.css pomimo tego, że w klasie social nie ma padding-bottom to zrobił go wizualnie, trzeba się temu przyjrzeć.. 
+w landing-page.css pomimo tego, że w klasie social nie ma padding-bottom to zrobił go wizualnie, trzeba się temu przyjrzeć..
+
+
+about -> team
+FAQ
+stopkę ze spisem usług i co wykonujemy (nie to czym się zajmuje) -> http://cleandrops.pl/
+sekcja cen
+w projects ma być progressbar - przebieg tworzenia projektu
+design prezentacji projektów do zmiany, dlatego, że takie coś mamy także w about us
+wszędzie pozmieniać na col-lg
+wstawić więcej tekstów + awatary komiksowe
+slider!!
+obrazki mają być skalowane przy zmianie szerokości strony
+stronka ma pracować mobilnie jak i na pc
+zrobić awatary komiksowe
