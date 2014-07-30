@@ -9,6 +9,10 @@ body,h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
+a {
+  color: #D5F1A5;
+}
+
 .circle-progress .lead {
   text-align: center;
   margin-top: 10px;
@@ -35,7 +39,8 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default li.active a {
-  background-color: #adF !important;
+  background-color: #D5F1A5 !important;
+  color: #000 !important;
 }
 
 @media (min-width: 768px) {
@@ -44,7 +49,7 @@ body,h1,h2,h3,h4,h5,h6 {
   }
 
   .navbar-default li.active a {
-    border-top: 5px solid #09F;
+    border-top: 5px solid #95C53E;
     background-color: #FFF !important;
   }
 }
@@ -56,7 +61,7 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .intro-header * {
-  text-shadow: 0 0 1.2em #09F, 0 0 1.2em #09F, 0 0 1.2em #09F;
+  text-shadow: 0 0 0.4em #EF7D00, 0 0 0.4em #EF7D00, 0 0 0.4em #EF7D00;
 }
 
 .content-section-a {
@@ -101,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-color: #1B1B1B;
   background-size: cover;
 }
 
@@ -177,6 +182,7 @@ ul.intro-social-buttons {
   border: solid 0.5px lightgray;
   border-top: 0px;
   box-shadow: 1px 7px 5px #888;
+  color: #FC9D10;
 }
 
 .container hr {
@@ -185,8 +191,9 @@ ul.intro-social-buttons {
 
 .content-skills #description {
   font-size: 20px;
-  background-color: #eee;
+  background-color: #D5F1A5;
   padding: 20px;
+  border: 1px solid #95C53E;
 }
 
 .content-skills .circle-progress > div {
@@ -194,9 +201,9 @@ ul.intro-social-buttons {
 }
 
 .content-skills .circle-progress  > div > div {
-  border: 1px solid #eee;
-  border-right: 3px solid #eee;
-  border-bottom: 3px solid #eee;
+  border: 1px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
   padding: 20px;
 }
 
@@ -208,7 +215,7 @@ ul.intro-social-buttons {
 .content-team {
   width: 100%;
   color: #fff;
-  background: url('../img/intro-bg.jpg') no-repeat scroll center center / cover transparent;
+  background-color: #1B1B1B;
 }
 
 .section-heading {
@@ -333,14 +340,23 @@ p.copyright {
 
 .panel:hover .panel-body {
   padding: 15px;
-  background: white;
+  background: #1B1B1B;
+  color: #FFF;
   height: 100%;
   width: 100%;
   bottom: 0;
+}
+
+.panel:hover .panel-body  h4{
+  color: #D5F1A5;
 }
 
 .panel-image ~ .panel-footer a {
   padding: 0px 10px;
   font-size: 1.3em;
   color: rgb(100, 100, 100);
+}
+
+footer {
+  background-color: #1B1B1B;
 }

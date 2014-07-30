@@ -29,7 +29,7 @@
 }
 .radial-progress .circle .mask .fill {
   clip: rect(0px, 60px, 120px, 0px);
-  background-color: #09F;
+  background-color: #777;
 }
 .radial-progress .inset {
   width: 90px;
@@ -37,7 +37,7 @@
   position: absolute;
   margin-left: 15px;
   margin-top: 15px;
-  background-color: #fbfbfb;
+  background-color: #333;
   border-radius: 50%;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
@@ -62,7 +62,7 @@
   font-weight: 800;
   font-size: 22px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #09F;
+  color: #FFF;
 }
 .radial-progress[data-progress="0"] .circle .mask.full,
 .radial-progress[data-progress="0"] .circle .fill {
