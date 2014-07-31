@@ -25,3 +25,7 @@ slider!!
 obrazki mają być skalowane przy zmianie szerokości strony
 stronka ma pracować mobilnie jak i na pc
 zrobić awatary komiksowe
+
+
+> Projekt Cen za strony proponuje coś z tego:
+http://bootsnipp.com/search?q=pricing
