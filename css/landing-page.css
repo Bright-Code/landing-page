@@ -191,9 +191,9 @@ ul.intro-social-buttons {
 
 .content-skills #description {
   font-size: 20px;
-  background-color: #D5F1A5;
+  background-color: #eee;
   padding: 20px;
-  border: 1px solid #95C53E;
+  border: 1px solid #ddd;
 }
 
 .content-skills .circle-progress > div {
