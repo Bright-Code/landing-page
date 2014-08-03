@@ -55,6 +55,7 @@
   position:relative;
   margin-bottom:150px;
 }
+
 .order-status-timeline {
   height:12px;
   border:1px solid #aaa;
@@ -62,6 +63,7 @@
   background:#eee;
   box-shadow:0px 0px 5px 0px #C2C2C2 inset;
 }
+
 .order-status-timeline .order-status-timeline-completion {
   height:8px;
   margin:1px;
@@ -69,6 +71,7 @@
   background:#95C53E;
   width:100%;
 }
+
 .image-order-status {
   border:1px solid #aaa;
   padding:7px;
@@ -77,12 +80,14 @@
   position:absolute;
   margin-top:-35px;
 }
+
 .image-order-status .icon {
   height:40px;
   width:40px;
   background-size:contain;
   background-position:no-repeat;
 }
+
 .image-order-status .status {
   position:absolute;
   color:#cf7400;
@@ -93,28 +98,39 @@
   top:-50px;
   left:40px;
 }
+
 .image-order-status .status:before {
   font-family:FontAwesome;
   content:"\f053";
   padding-right:5px;
 }
+
 .image-order-status-planning { left:0; }
+
 .image-order-status-design { left:22%; }
+
 .image-order-status-development { left:45%; }
+
 .image-order-status-testing { left:70%; }
+
 .image-order-status-launch { right:0px; }
+
 .image-order-status-planning .icon {
-  background-image:url('../img/steps/icon_planning.png')
+  background-image:url('../img/steps/icon_planning.png');
 }
+
 .image-order-status-design .icon {
-  background-image:url('../img/steps/icon_design.png')
+  background-image:url('../img/steps/icon_design.png');
 }
+
 .image-order-status-development .icon {
-  background-image:url('../img/steps/icon_development.png')
+  background-image:url('../img/steps/icon_development.png');
 }
+
 .image-order-status-testing .icon {
-  background-image:url('../img/steps/icon_testing.png')
+  background-image:url('../img/steps/icon_testing.png');
 }
+
 .image-order-status-launch .icon {
   background-image: url('../img/steps/icon_launch.png');
 }

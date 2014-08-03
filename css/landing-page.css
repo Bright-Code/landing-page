@@ -323,12 +323,6 @@ p.copyright {
   border-radius: 0px;
 }
 
-.panel-image ~ input[type=checkbox] {
-  position:absolute;
-  top:- 30px;
-  z-index: -1;
-}
-
 .panel-body {
   display: block;
   height: 0px;
