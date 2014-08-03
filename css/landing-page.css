@@ -13,7 +13,7 @@ a {
   color: #D5F1A5;
 }
 
-.content-prices .row {
+.content-prices .row, .content-projects .row {
   margin: 50px 0px;
 }
 
