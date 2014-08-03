@@ -13,6 +13,10 @@ a {
   color: #D5F1A5;
 }
 
+.content-prices .row {
+  margin: 50px 0px;
+}
+
 .circle-progress .lead {
   text-align: center;
   margin-top: 10px;
@@ -95,6 +99,10 @@ a {
 .socials img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
+}
+
+.obiwan-img {
+  height: 400px;
 }
 
 .progress {
@@ -189,11 +197,18 @@ ul.intro-social-buttons {
   margin-top: 10px;
 }
 
-.content-skills #description {
+.description {
+  margin: 50px 0px;
   font-size: 20px;
   background-color: #eee;
   padding: 20px;
   border: 1px solid #ddd;
+}
+
+.content-faq  .question {
+  border-left: 7px solid #FC9D10;
+  padding: 0px 10px;
+  margin: 50px 0px;
 }
 
 .content-skills .circle-progress > div {
@@ -202,12 +217,12 @@ ul.intro-social-buttons {
 
 .content-skills .circle-progress  > div > div {
   border: 1px solid #ccc;
-  border-right: 3px solid #ccc;
-  border-bottom: 3px solid #ccc;
-  padding: 20px;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 20px 0px;
 }
 
-.content-skills, .content-projects, .content-about-us {
+.content-skills, .content-projects, .content-about-us, .content-prices, .content-faq {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
 }
@@ -297,20 +312,20 @@ p.copyright {
   padding: 3px 10px 2px;
 }
 
-.panel {
+.content-projects .panel {
   overflow: hidden;
   position: relative;
 }
 
-.panel-image {
+.content-projects .panel-image {
   position: relative;
 }
-.panel-image img.panel-image-preview {
+.content-projects .panel-image img.panel-image-preview {
   width: 100%;
   border-radius: 4px 4px 0px 0px;
 }
 
-.panel-image label {
+.content-projects .panel-image label {
   display: block;
   position: absolute;
   top: 0px;
@@ -319,11 +334,11 @@ p.copyright {
   width: 100%;
 }
 
-.panel-heading ~ .panel-image img.panel-image-preview {
+.content-projects .panel-heading ~ .panel-image img.panel-image-preview {
   border-radius: 0px;
 }
 
-.panel-body {
+.content-projects .panel-body {
   display: block;
   height: 0px;
   padding: 0px;
@@ -332,7 +347,7 @@ p.copyright {
   transition: bottom 0.2s linear 0.2s;
 }
 
-.panel:hover .panel-body {
+.content-projects .panel:hover .panel-body {
   padding: 15px;
   background: #1B1B1B;
   color: #FFF;
@@ -341,11 +356,11 @@ p.copyright {
   bottom: 0;
 }
 
-.panel:hover .panel-body  h4{
+.content-projects .panel:hover .panel-body  h4{
   color: #D5F1A5;
 }
 
-.panel-image ~ .panel-footer a {
+.content-projects .panel-image ~ .panel-footer a {
   padding: 0px 10px;
   font-size: 1.3em;
   color: rgb(100, 100, 100);
