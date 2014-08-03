@@ -207,8 +207,11 @@ ul.intro-social-buttons {
 
 .content-faq  .question {
   border-left: 7px solid #FC9D10;
-  padding: 0px 10px;
+  padding: 2px 10px;
   margin: 50px 0px;
+  box-shadow: 0 8px 6px -6px #999;
+  -webkit-box-shadow: 0 8px 6px -6px  #999;
+  -moz-box-shadow: 0 8px 6px -6px  #999;
 }
 
 .content-skills .circle-progress > div {
