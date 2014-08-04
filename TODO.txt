@@ -1,31 +1,7 @@
-Miłosz:
-projekty - poprawić design -> http://bootsnipp.com/snippets/featured/portfolio-using-panels-no-javascript
-menu item jumping
-
-Jacek:
-slider
-projekty - dołączyć 3 projekty + opisy i linki
-
-Paweł:
-w About Us przydałyby się nasze zdjęcia
-
-
-w landing-page.css pomimo tego, że w klasie social nie ma padding-bottom to zrobił go wizualnie, trzeba się temu przyjrzeć..
-
-
-about -> team
-FAQ
-stopkę ze spisem usług i co wykonujemy (nie to czym się zajmuje) -> http://cleandrops.pl/
-sekcja cen
-w projects ma być progressbar - przebieg tworzenia projektu
-design prezentacji projektów do zmiany, dlatego, że takie coś mamy także w about us
-wszędzie pozmieniać na col-lg
-wstawić więcej tekstów + awatary komiksowe
-slider!!
-obrazki mają być skalowane przy zmianie szerokości strony
-stronka ma pracować mobilnie jak i na pc
-zrobić awatary komiksowe
-
-
-> Projekt Cen za strony proponuje coś z tego:
-http://bootsnipp.com/search?q=pricing
+stopkę ze spisem usług i co wykonujemy (nie to czym się zajmujemy) -> http://cleandrops.pl/
+w stopce niech znajdzie się również możliwość kontaktu z nami np. poprzez e-mail
+w sekcji cen dokończyć progress steps, dodać opisy do steps'ów oraz wyświetlić informacje o cenach orientacyjnych
+w sekcji team zmienić sposób wyświetlania zdjęć na taki jaki jest na https://netguru.co/team (pojedyncze zdjęcia)
+poprawić aplikacje by działała również pod przeglądarkami w wersji mobilnej - opisy projektów są ucięte
+naciśnięcie wybranego progress circle powinien wymusić akcje przeładowania go ponownie
+dokończyć slider
