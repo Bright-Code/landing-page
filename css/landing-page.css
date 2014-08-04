@@ -408,3 +408,15 @@ p.copyright {
   width: 80px;
   height: auto;
 }
+
+.progress-steps .img-circle {
+  display: inline-block;
+  border: 1px solid #DDD;
+  padding: 7px;
+  box-shadow: 0px 0px 10px 0px #999;
+  background-color: #FDFDFD;
+}
+
+.progress-steps .img-circle:hover {
+  box-shadow: 0px 0px 20px 0px #95C53E;
+}
