@@ -440,44 +440,60 @@
           <div class="box">Prices</div>
         </h2>
 
-        <div class="row progress-steps">
+        <div class="row progress-steps" role="tablist">
           <div class="col-md-2 col-md-offset-1 text-center">
-            <div class="img-circle">
-              <img src="img/steps/icon_planning.png" />
+            <div class="img-circle active">
+              <a href="#planing" role="tab" data-toggle="tab">
+                <img src="img/steps/icon_planning.png" />
+              </a>
             </div>
             <span class="status">Planing</span>
           </div>
 
           <div class="col-md-2 text-center">
             <div class="img-circle">
-              <img src="img/steps/icon_design.png" />
+              <a href="#design" role="tab" data-toggle="tab">
+                <img src="img/steps/icon_design.png" />
+              </a>
             </div>
             <span class="status">Design</span>
           </div>
 
           <div class="col-md-2 text-center">
             <div class="img-circle">
-              <img src="img/steps/icon_development.png" />
+              <a href="#development" role="tab" data-toggle="tab">
+                <img src="img/steps/icon_development.png" />
+              </a>
             </div>
             <span class="status">Development</span>
           </div>
 
           <div class="col-md-2 text-center">
             <div class="img-circle">
-              <img src="img/steps/icon_testing.png" />
+              <a href="#testing" role="tab" data-toggle="tab">
+                <img src="img/steps/icon_testing.png" />
+              </a>
             </div>
             <span class="status">Testing</span>
           </div>
 
           <div class="col-md-2 text-center">
             <div class="img-circle">
-              <img src="img/steps/icon_launch.png" />
+              <a href="#launch" role="tab" data-toggle="tab">
+                <img src="img/steps/icon_launch.png" />
+              </a>
             </div>
             <span class="status">Launch</span>
           </div>
         </div>
 
-        <p class="lead description">The following prices are indicative prices.</p>
+        <div class="lead description tab-content">
+          <div class="tab-pane fade in active" id="planing">Planing</div>
+          <div class="tab-pane fade" id="design">Design</div>
+          <div class="tab-pane fade" id="development">Development</div>
+          <div class="tab-pane fade" id="testing">Testing</div>
+          <div class="tab-pane fade" id="launch">Launch</div>
+        </div>
 
         <div class="row">
           <div class="col-md-3">
