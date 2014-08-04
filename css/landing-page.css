@@ -402,6 +402,8 @@ p.copyright {
 
 .progress-steps .status {
   display:block;
+  margin: 20px 0px;
+  font-size: 14px;
 }
 
 .progress-steps img {
