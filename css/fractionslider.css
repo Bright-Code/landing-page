@@ -50,7 +50,7 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
-.slider-wrapper{
+.slider-wrapper_fractionslider{
   position:relative;
   overflow:hidden;
   width:100%;
@@ -196,5 +196,7 @@ p{
 .light-green{background:#95C542;}
 .green{background:#7CB761}
 .orange{background:#EF7D00}
+.orange2{background:#ed5e00}
+.orange3{background:#ee3f00}
 .turky{background:#348E8A}
 .white{background:#fff; color:#333}
