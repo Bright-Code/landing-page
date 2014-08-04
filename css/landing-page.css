@@ -198,7 +198,7 @@ ul.intro-social-buttons {
 }
 
 .description {
-  margin: 50px 0px;
+  margin: 30px 0px;
   font-size: 20px;
   background-color: #eee;
   padding: 20px;
@@ -236,8 +236,8 @@ ul.intro-social-buttons {
   background-color: #1B1B1B;
 }
 
-.section-heading {
-  margin-bottom: 30px;
+.heading {
+  margin-bottom: 50px;
 }
 
 .section-heading-spacer {
@@ -369,8 +369,10 @@ p.copyright {
   color: rgb(100, 100, 100);
 }
 
-footer {
+#footer {
   background-color: #1B1B1B;
+  padding: 50px 0px;
+  color: #fff;
 }
 
 .progress-steps {
