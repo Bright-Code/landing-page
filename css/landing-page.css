@@ -13,6 +13,10 @@ a {
   color: #D5F1A5;
 }
 
+a:hover {
+    color: #aaa;
+}
+
 .content-prices .row, .content-projects .row {
   margin: 50px 0px;
 }
@@ -376,6 +380,15 @@ p.copyright {
   background-color: #1B1B1B;
   padding: 50px 0px;
   color: #fff;
+  font-size: 17px;
+}
+
+#footer li {
+  color: #D5F1A5;
+}
+
+#footer h4 {
+    color: #fff;
 }
 
 .progress-steps {
