@@ -379,6 +379,11 @@ p.copyright {
   padding: 0px 10px;
   font-size: 1.3em;
   color: rgb(100, 100, 100);
+
+}
+
+.panel-footer a.btn-success {
+  background-color: #95c53e;
 }
 
 #footer {
@@ -425,4 +430,9 @@ p.copyright {
 
 .progress-steps a:focus {
   outline:0;
+}
+
+.content-prices .panel-heading {
+  background-color: #daebbb !important;
+  color: #000;
 }
