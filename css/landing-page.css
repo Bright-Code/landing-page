@@ -9,6 +9,10 @@ body,h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
+#home {
+  padding-top: 58px;
+}
+
 a {
   color: #D5F1A5;
 }
@@ -44,6 +48,7 @@ a:hover {
 
 .navbar-default {
   background-color: #FFF;
+  z-index: 10000;
 }
 
 .navbar-default li.active a {
