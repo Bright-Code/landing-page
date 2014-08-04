@@ -83,7 +83,7 @@
 .fs-custom-pager-wrapper .active{
 }
 
-.pp{
+.slide p{
     position:absolute;
     top:-200px;
     z-index:8000;
@@ -96,24 +96,25 @@
 
 }
 
-.claim{
+.slide p.claim{
 
-  line-height:100%
+  line-height:100%;
+    background:#95C542;
 }
 
-.teaser{
+.slide p.teaser{
   padding:0.5% 1.5%;
   font-size:14px;
-  line-height:100%
+  line-height:100% ;
 }
 
-.small{
+.slide p.small{
   width:250px;
   padding-left:0; padding-right:0px;
   text-align:center;
 }
 
-.light-green{background:#95C542;}
+b.light-green{background:#95C542;}
 .green{background:#7CB761}
 .orange{background:#EF7D00}
 .orange2{background:#ed5e00}
