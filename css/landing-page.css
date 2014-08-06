@@ -401,6 +401,44 @@ p.copyright {
     color: #fff;
 }
 
+.facebook-icon, .twitter-icon, .googleplus-icon, .elance-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
+.facebook-icon {
+     background-image: url(../img/socials/facebook.png);
+ }
+
+.twitter-icon {
+    background-image: url(../img/socials/twitter.png);
+}
+
+.googleplus-icon {
+    background-image: url(../img/socials/googleplus.png);
+}
+
+.elance-icon {
+    background-image: url(../img/socials/elance.png);
+}
+
+.facebook-icon:hover {
+    background-image: url(../img/socials/facebook_col.png);
+}
+
+.twitter-icon:hover {
+     background-image: url(../img/socials/twitter_col.png);
+ }
+
+.googleplus-icon:hover {
+    background-image: url(../img/socials/googleplus_col.png);
+}
+
+.elance-icon:hover {
+    background-image: url(../img/socials/elance_col.png);
+}
+
 .progress-steps {
   margin: 50px 0px;
 }
