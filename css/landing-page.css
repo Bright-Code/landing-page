@@ -68,9 +68,9 @@ a:hover {
 }
 .navbar-brand {
     margin-top: 3px;
-    width: 112px;
-    height: 50px;
-    background: url(../img/logo_header.png) no-repeat center center;
+    width: 200px;
+    height: 60px;
+    background: url(../img/logo_header1.png) no-repeat center center;
 }
 
 .intro-header * {
@@ -200,6 +200,8 @@ ul.intro-social-buttons {
   border-top: 0px;
   box-shadow: 1px 7px 5px #888;
   color: #95C53E;
+    background-color: white;
+    width: 165px;
 }
 
 .container hr {
